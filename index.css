@@ -54,6 +54,18 @@ header {
     flex-wrap: wrap;
 }
 
+.card {
+    margin: 12px;
+}
+
+.logographic {
+    height: 220px;
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 .onethird {
     display: flex;
     width: 400px;
