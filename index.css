@@ -166,3 +166,13 @@ ul {
     footer {
         flex-direction: column;
     }
+
+    .onethird {
+        width: 350px;
+    }
+
+    .brand {
+        width: 85%;
+    }
+
+}
