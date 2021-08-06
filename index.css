@@ -171,8 +171,9 @@ ul {
         width: 350px;
     }
 
-    .brand {
+    #brand {
         width: 85%;
+        word-wrap: normal;
     }
 
 }
