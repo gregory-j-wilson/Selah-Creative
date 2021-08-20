@@ -7,7 +7,7 @@ header {
     background-color: rgb(219, 219, 219);
     height: auto;
     display: flex;
-    padding: 18px;
+    padding: 25px;
     justify-content: space-between;
     align-items:flex-end;
 }
@@ -27,23 +27,22 @@ header {
     align-items: center;
 }
 
-#brand {
+#title {
     color: white; 
     border: 1px solid white; 
     border-radius: 17px; 
     padding: 15px;
     transition: 1s;
+    cursor: default;
 }
 
-#brand:hover {
+#title:hover {
     transition: 1s;
     font-size: 3rem;
 }
 
 .container {
-    min-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0px;
 }
 
 #web-graphics-publicity {
@@ -144,6 +143,29 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+#about-title-box {
+    height: 200px;
+    background-image: url('about.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.dark-blur {
+    backdrop-filter: blur(7px) brightness(0.4);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 @media (max-width: 1100px) { 
