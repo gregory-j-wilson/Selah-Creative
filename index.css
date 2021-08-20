@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .dark-blur {
-    backdrop-filter: blur(7px) brightness(0.5);
+    backdrop-filter: blur(4px) brightness(0.5);
     height: 200px;
     width: 100%;
     display: flex;
