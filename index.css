@@ -153,12 +153,28 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('about.jpg');
     background-position: 50% 60%;
     background-size: cover;
-    text-align: center;
-    
+    text-align: center;   
 }
 
+#contact-title-box {
+    height: 200px;
+    background-image: url('contact.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+    text-align: center;   
+}
+
+#portfolio-title-box {
+    height: 200px;
+    background-image: url('portfolio.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+    text-align: center;   
+}
+
+
 .dark-blur {
-    backdrop-filter: blur(7px) brightness(0.4);
+    backdrop-filter: blur(7px) brightness(0.5);
     height: 200px;
     width: 100%;
     display: flex;
