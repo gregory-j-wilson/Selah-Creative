@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
     #about-title-box {
         height: 200px;
         background-image: url('about.jpg');
-        background-position: 50% 60%;
+        background-position: 50% 70%;
         background-size: cover;
         text-align: center;   
     }
