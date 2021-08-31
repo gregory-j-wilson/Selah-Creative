@@ -54,6 +54,15 @@ header {
     flex-wrap: wrap;
 }
 
+#portfolio1 {
+    background: #198754;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
 .card {
     margin: 12px;
 }
@@ -223,6 +232,10 @@ h1, h2, h3, h4, h5, h6 {
 .picbg {
     background-color: #542c1c; 
     border-radius: 9px 0px 0px 9px;
+}
+
+.website-mockup {
+    width: 90%;
 }
 
 
