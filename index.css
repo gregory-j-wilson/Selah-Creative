@@ -182,6 +182,26 @@ h1, h2, h3, h5, h6 {
     text-align: center;   
 }
 
+#graphics-title-box {
+    height: 200px;
+    background-image: url('graphics/simplified-red-car.jpg');
+    background-position: 50% 30%;
+    background-size: cover;
+    text-align: center;   
+}
+
+#nikon-container {
+    width: 100%;
+}
+
+#nikon {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
 
 .dark-blur {
     backdrop-filter: blur(4px) brightness(0.5);
@@ -263,6 +283,7 @@ h4 {
     width: 95%;
     border-radius: 10px;
     margin: 12px;
+    font-size: 2rem;
 }
 
 .work-block-link {
