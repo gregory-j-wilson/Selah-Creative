@@ -301,6 +301,22 @@ h3:hover {
     background-repeat: no-repeat;
 }
 
+#publicity-title-box {
+    height: 200px;
+    background-image: url('googlebg.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+    text-align: center;   
+}
+
+#publicity-section {
+    background: #7a9bad;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
 
 
 @media (max-width: 1100px) { 
