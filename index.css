@@ -16,6 +16,15 @@ header {
     margin: 4px;
 }
 
+.roundedbutton {
+    border-radius: 25px;
+}
+
+.eng-esp {
+    margin: 0px 0px 7px 60px;
+    padding: 9px 30px 9px 30px;
+}
+
 #bigpic-sentence {
     background-image: url("coffeeshop-phone.jpg");
     background-size: cover;
@@ -341,6 +350,11 @@ h3:hover {
     .btn {
         margin: 4px;
         width: 100%;
+    }
+
+    .eng-esp {
+        margin: 20px 0px 5px 15px;
+        width: 50%;
     }
 
 }
