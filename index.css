@@ -337,6 +337,9 @@ h3:hover {
     width: 100%;
 }
 
+.grayhover:hover {
+    background-color: rgb(32, 13, 77);
+}
 
 @media (max-width: 1100px) { 
 
