@@ -5,15 +5,15 @@ $(function() //this executes the conrtained script after all the other scripts o
   {
     var _this = $(this); //set $this to the local variable _this to save time on DOM lookup; 'var' makes it local
 
-    if(_this.text() == 'Why "Selah"?') //show; looks at the text inside <span class="more"></span>
+    if(_this.text() == '¿Por qué "Selah"?') //show; looks at the text inside <span class="more"></span>
     {
       _this.siblings('.complete-2').show(); //sets all sibling elements with the class 'complete' to be shown (display:inline)
-      _this.text('Glad you asked! Read below to find out!'); //changes text inside <span class="more"></span>
+      _this.text('¡Me alegro de que lo hayas preguntado! ¡Lea a continuación para averiguarlo!'); //changes text inside <span class="more"></span>
     }
     else //hide
     {
       _this.siblings('.complete-2').hide()
-      _this.text('Why "Selah"?');
+      _this.text('¿Por qué "Selah"?');
     }
   });
 
